@@ -1,0 +1,53 @@
+.userInformation {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.userInformation > p ,
+.userInformation > p,
+.userInformation > p > span,
+.userInformation > p > span {
+    text-align: center;
+    display: block;
+    margin: 0px;
+}
+
+.userInformation > p:first-child {
+    margin-right: 50px;
+}
+
+.currentWeatherData,
+.extendedWeatherData {
+    width: 100%;
+    position: relative;
+}
+
+.currentWeatherData > p,
+.extendedWeatherData > p {
+    display: block;
+    z-index: 1;
+    margin-bottom: 3px;
+}
+
+.img-weather {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: .5;
+    z-index: 0;
+}
+
+.subtitle {
+    font-weight: 500;
+}
+
+.values {
+    font-weight: 300;
+}
+
+.currentWeatherData > p.sectionTitle,
+.extendedWeatherData > p.sectionTitle {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
